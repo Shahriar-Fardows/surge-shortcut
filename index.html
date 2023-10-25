@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surge shortcut </title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- header content and style  -->
+     <header id="home">
+        <!-- navbar all code  -->
+  
+        <nav
+          class="bg-white dark:bg-gray-900 border border-dashed border-green-500 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+        >
+          <div
+            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+          >
+            <a href="index.html" class="flex items-center">
+              <img src="./img/logo.png" class="h-8" alt=" Logo" />
+              <span
+                class="self-center text-base lg:text-2xl text-emerald-500 font-semibold whitespace-nowrap dark:text-white"
+                >Shortcut<span class="text-black">Surge</span></span
+              >
+            </a>
+            <div class="flex md:order-2">
+              <!-- <button
+                type="button"
+                class="text-white bg-emerald-500 bg-emerald-300  focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:bg-emerald-500 dark:focus:ring-emerald-300"
+              >
+              <a href="comment.html">Comment</a>
+              </button> -->
+              <button
+                data-collapse-toggle="navbar-sticky"
+                type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-sticky"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="w-5 h-5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 17 14"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+              id="navbar-sticky"
+            >
+              
+            </div>
+          </div>
+        </nav>
+        <section
+          class="px-[1rem] lg:h-[50vh] bg-[#f5f5dc]  py-[34%] lg:py-[10%] lg:justify-evenly lg:items-center"
+        >
+        <h1 class=" text-2xl :text-4xl text-center ">
+            Static web publishing <br> <span class="auto-type text-emerald-500"></span>
+        </h1><br>
+        <p class="text-xl text-center ">
+            Simple, single-command web publishing. Publish <br> HTML, CSS, and JS for free, without leaving the <br> command line.
+        </p><br>
+        <div class="text-xl text-center lg:flex justify-around">
+            
+            
+            <p class="self-center text-base lg:text-2xl text-emerald-500 font-semibold whitespace-nowrap dark:text-white">Your Total Visits: <span id="visitCount">0</span></p>
+           
+            <p class="self-center text-base lg:text-2xl text-emerald-500 font-semibold whitespace-nowrap dark:text-white"> time spent  Now: <span id="total-time">00:00:00</span></p>
+        </div>
+        </section>
+      </header><hr>
+
+      <main >
+        <section id="install" class="grid lg:grid-cols-2 gap-6 py-[50px] px-[20px] lg:py-[5rem] lg:px-[15rem]">
+            <div >
+                <h1 class="text-4xl text-green-500">Install</h1>
+                <p class="text-2xl">
+                    If you are using (Surge) for the first time, first open terminal and install <br> (Surge) by typing this code inside it
+                </p><br>
+
+                <h1>surge install code</h1>
+                
+                <pre class="code h-[40%]">
+   <code><br>   npm install --global surge <br>================================or shortcut code================================
+    npm i -g surge
+                    </code>
+                </pre>
+            </div>
+            <div>
+                <img class="w-[80vw] lg:w-[80vw] lg:w-[50vw] " src="./img/1.png" alt="">
+            </div>
+        </section>
+        <section class="grid lg:grid-cols-2 gap-6 py-[50px] px-[20px] lg:py-[5rem] lg:px-[15rem]">
+            <div>
+                <img class="w-[80vw] lg:w-[50vw] " src="./img/2.png" alt="">
+            </div>
+            <div >
+                <h1 class="text-4xl text-green-500">Domain search</h1>
+                <p class="text-2xl">
+                    After the (surge) installation is complete, open the <br> project you want to deploy in Terminal and enter this <br>code
+                </p><br>
+                
+                <h1>surge domain search code</h1>
+                
+                <pre class="code h-[40%]">
+   <code><br>  surge
+                    </code>
+                </pre>
+            </div>
+        </section>
+        <section class="grid lg:grid-cols-2 gap-6 py-[50px] px-[20px] lg:py-[5rem] lg:px-[15rem]">
+            <div >
+                <h1 class="text-4xl text-green-500">email or password</h1>
+                <p class="text-2xl">
+                    Now (Surge) will ask you for an email and password through which an account will be created for you with in (Surge)
+                </p><br>
+
+                <h1>surge  code</h1>
+                
+                <pre class="code h-[40%]">
+   <code><br>   give Your email or password
+                    </code>
+                </pre>
+            </div>
+            <div>
+                <img class="w-[80vw] lg:w-[50vw] sm:my-[30px] " src="./img/3.png" alt="">
+            </div>
+        </section>
+        <section class="grid lg:grid-cols-2 gap-6 py-[50px] px-[20px] lg:py-[5rem] lg:px-[15rem]">
+            <div >
+                <h1 class="text-4xl text-green-500">Research Domain</h1>
+                <p class="text-2xl">
+                    Now you type Surge in Terminal and enter until you get a domain for your project
+                </p><br>
+
+                <h1>surge  code</h1>
+                
+                <pre class="code h-[40%]">
+   <code><br>   type Surge on terminal
+                    </code>
+                </pre>
+            </div>
+            <div>
+                <img class="w-[80vw] lg:w-[50vw] " src="./img/4.png" alt="">
+            </div>
+        </section>
+
+
+        <section class="grid lg:grid-cols-2 gap-6 py-[50px] px-[20px] lg:py-[5rem] lg:px-[15rem]">
+            <div >
+                <h1 class="text-4xl text-green-500">get domain permanent</h1>
+                <p class="text-2xl">
+                    If you want, you can write a domain for yourself as you like and search to see if it is available. If it is available, it will show success like this image. Then if you want to save that domain forever, then write your code in the terminal.
+                </p><br>
+
+                <h1>surge domain save code</h1>
+                
+                <pre class="code h-[40%]">
+   <code><br>   
+    echo (your domain name ) >CNAME
+                    </code>
+                </pre>
+            </div>
+            <div>
+                <img class="w-[80vw] lg:w-[80vw] lg:w-[50vw] " src="./img/5.png" alt="">
+            </div>
+        </section>
+
+        <section class="grid lg:grid-cols-2 gap-6 py-[50px] px-[20px] lg:py-[5rem] lg:px-[15rem]">
+            <div>
+                <img class="w-[80vw] lg:w-[50vw] " src="./img/6.png" alt="">
+            </div>
+            <div >
+                <h1 class="text-4xl text-green-500">update your Domain</h1>
+                <p class="text-2xl">
+                    Many times it is seen that even after deploying the project we have to make many changes in it. To save these changes, we need to update the document later. Using this code below, you will update it in your comments so that your work can be seen on the website.
+                </p><br>
+                
+                <h1>surge domain update code</h1>
+                
+                <pre class="code h-[40%]">
+   <code><br>  surge --domain (your domain name)
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+      </main>
+
+
+      <footer class=" rounded-lg shadow m-4 dark:bg-gray-800">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">shortcut™</a>. All Rights Reserved.
+        </span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+            </li>
+           
+        </ul>
+        </div>
+    </footer>
+    
+
+
+
+
+    <!-- js all link  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      let typed = new Typed(".auto-type", {
+        strings: [
+           "for Front-End Developers"
+        ],
+        typeSpeed: 110,
+        backSpeed: 200,
+        loop: true,
+      });
+    </script>
+
+        <script>
+            // Function to update the visit count
+            function updateVisitCount() {
+                // Check if 'visitCount' is stored in local storage
+                if (localStorage.visitCount) {
+                    localStorage.visitCount = Number(localStorage.visitCount) + 1;
+                } else {
+                    localStorage.visitCount = 1;
+                }
+
+                // Update the content of the visitCount element
+                document.getElementById("visitCount").textContent = localStorage.visitCount;
+            }
+
+            // Call the updateVisitCount function when the page loads
+            updateVisitCount();
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script>
+        // Create a variable to store the total time in seconds
+        let totalTime = 0;
+
+        // Function to update and display the total time
+        function updateTotalTime() {
+            totalTime++;
+            document.getElementById('total-time').textContent = formatTime(totalTime);
+        }
+
+        // Function to format time in HH:MM:SS
+        function formatTime(seconds) {
+            const hours = Math.floor(seconds / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            const secs = seconds % 60;
+            return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        // Start tracking time when the page loads
+        const timer = setInterval(updateTotalTime, 1000);
+
+        // Stop the timer when the user leaves the page
+        window.addEventListener('beforeunload', () => {
+            clearInterval(timer);
+        });
+
+    </script>
+
+    
+        <script>
+            // Get the current date
+            const todays = new Date().toDateString();
+
+            // Initialize time data for the past 7 days
+            let timeData = JSON.parse(localStorage.getItem('timeData')) || {};
+
+            // Function to update the displayed times
+            function updateDisplay() {
+                const timeList = document.getElementById("timeList");
+                timeList.innerHTML = ''; // Clear the list
+
+                for (let i = 0; i < 7; i++) {
+                    const date = new Date(todays);
+                    date.setDate(date.getDate() - i); // Go back in time
+
+                    const dateString = date.toDateString();
+                    const timeSpent = timeData[dateString] || 0;
+
+                    const listItem = document.createElement("li");
+                    listItem.textContent = `${dateString}: ${timeSpent} seconds`;
+                    timeList.appendChild(listItem);
+                }
+            }
+
+            // Function to track user activity
+            function trackActivity() {
+                // Increment today's time
+                timeData[todays] = (timeData[todays] || 0) + 1;
+
+                // Store time data in localStorage
+                localStorage.setItem('timeData', JSON.stringify(timeData));
+
+                // Update the display
+                updateDisplay();
+            }
+
+            // Start tracking user activity
+            setInterval(trackActivity, 1000); // Update every second
+
+            // Update the display initially
+            updateDisplay();
+        </script>
+
+</body>
+</html>
